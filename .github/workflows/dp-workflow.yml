@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Printing hello world'
-        run: 'echo Hello, world'
+        run: echo Hello, world
 
       - name: 'Printing another hello world'  
         run: |

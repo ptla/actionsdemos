@@ -1,0 +1,16 @@
+name: my-dp-workflow
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Printing hello world'
+        run: echo Hello, world
+
+      - name: 'Printing another hello world'  
+        run: |
+          echo Hi
+          echo This is another hellow world

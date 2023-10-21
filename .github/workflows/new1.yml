@@ -1,9 +1,8 @@
-description: "This is something new"
 on: push
 jobs:
-  job1:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo Hello
-    - shell: bash
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Hello
+      - shell: bash
 

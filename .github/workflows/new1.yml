@@ -2,7 +2,7 @@ name: disrupt
 on: 
   issues:
     types: [labeled]
-run-name: My brand new workflow
+# run-name: My brand new workflow
 jobs:
   build:
     runs-on: ubuntu-latest

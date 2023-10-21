@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: "Just print the word hellp"
+      - name: "Just print a hello word"
         run: echo Hello
         shell: bash
 

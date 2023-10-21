@@ -1,4 +1,6 @@
-on: push
+on: 
+  label:
+    labeled
 run-name: My brand new workflow
 jobs:
   build:

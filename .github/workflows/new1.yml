@@ -1,4 +1,5 @@
 on: push
+run-name: My brand new workflow
 jobs:
   build:
     runs-on: ubuntu-latest

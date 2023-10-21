@@ -1,5 +1,5 @@
 on: 
-  label:
+  issues:
     types: [labeled]
 run-name: My brand new workflow
 jobs:

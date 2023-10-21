@@ -1,8 +1,10 @@
+name: test workflow
 on: push
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo Hello
-      - shell: bash
+      - name: "Just print the word hellp"
+        run: echo Hello
+        shell: bash
 

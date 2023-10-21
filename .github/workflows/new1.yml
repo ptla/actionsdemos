@@ -1,6 +1,6 @@
 on: 
   label:
-    labeled
+    types: [labeled]
 run-name: My brand new workflow
 jobs:
   build:
